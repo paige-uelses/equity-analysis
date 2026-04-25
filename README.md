@@ -1,4 +1,4 @@
-# equityanalysis
+# equity-analysis
 **Stock Analyzer**
 Python tool that pulls live financial data from the Financial Modeling Prep and FRED APIs, calculates WACC using CAPM, and runs a DCF valuation to estimate intrinsic value.
 
