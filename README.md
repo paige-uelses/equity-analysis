@@ -1,6 +1,6 @@
 # equity-analysis
 **Stock Analyzer**
-Python tool that pulls live financial data from the Financial Modeling Prep and FRED APIs, calculates WACC using CAPM, and runs a DCF valuation to estimate intrinsic value.
+- Python tool that pulls live financial data from the Financial Modeling Prep and FRED APIs, calculates WACC using CAPM, and runs a DCF valuation to estimate intrinsic value.
 
 **What it does**
 - Pulls key financial metrics (P/E, EV/EBITDA, margins, ROE, FCF, debt/equity)
@@ -13,8 +13,8 @@ a margin-of-safety signal (strong buy / buy / hold / sell)
 - FRED (Federal Reserve) — 10-Year Treasury yield for risk-free rate
 
 **Next updates**
-Monte Carlo simulation to quantify valuation uncertainty across a range of outcomes
-Peer comparisons (P/E and EV/EBITDA vs industry)
+- Monte Carlo simulation to quantify valuation uncertainty across a range of outcomes
+- Peer comparisons (P/E and EV/EBITDA vs industry)
 
 **Future Enhancements**
 - Sentiment analysis on earnings calls and news
@@ -22,4 +22,4 @@ Peer comparisons (P/E and EV/EBITDA vs industry)
 - Scorecard-style output (valuation: cheap/fair/expensive, profitability: strong/weak, etc.)
   
 **Disclaimer**
-This is a personal project for learning and not financial advice. DCF models are highly sensitive to assumptions and don't capture many real-world factors.
+- This is a personal project for learning and not financial advice. DCF models are highly sensitive to assumptions and don't capture many real-world factors.
